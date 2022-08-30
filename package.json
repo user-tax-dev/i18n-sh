@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@iuser/node-loader": "^0.0.20",
+    "@iuser/ossput": "^0.0.1",
+    "@iuser/read": "^0.0.5",
+    "@iuser/snake": "^0.0.15",
+    "@iuser/u8": "^0.0.3",
+    "@iuser/verincr": "^0.0.4",
+    "@iuser/write": "^0.0.6",
+    "@rmw/pool": "^0.0.21",
+    "@rmw/thisdir": "^0.0.2",
+    "coffee_plus": "^0.0.38",
+    "isomorphic-git": "^1.19.2",
+    "zx": "^7.0.8"
+  }
+}
