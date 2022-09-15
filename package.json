@@ -1,7 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "@iuser/i18n": "^0.0.23",
+    "@iuser/i18n": "^0.0.24",
     "@iuser/node-loader": "^0.0.21",
     "@iuser/ossput": "^0.0.4",
     "@iuser/read": "^0.0.5",
