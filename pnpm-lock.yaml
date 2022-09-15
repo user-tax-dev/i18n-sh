@@ -1,31 +1,31 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iuser/node-loader': ^0.0.20
-  '@iuser/ossput': ^0.0.1
+  '@iuser/node-loader': ^0.0.21
+  '@iuser/ossput': ^0.0.4
   '@iuser/read': ^0.0.5
   '@iuser/snake': ^0.0.15
   '@iuser/u8': ^0.0.3
   '@iuser/verincr': ^0.0.4
-  '@iuser/write': ^0.0.6
+  '@iuser/write': ^0.0.7
   '@rmw/pool': ^0.0.21
   '@rmw/thisdir': ^0.0.2
-  coffee_plus: ^0.0.38
-  isomorphic-git: ^1.19.2
+  coffee_plus: ^0.0.39
+  isomorphic-git: ^1.21.0
   zx: ^7.0.8
 
 dependencies:
-  '@iuser/node-loader': 0.0.20
-  '@iuser/ossput': 0.0.1
+  '@iuser/node-loader': 0.0.21
+  '@iuser/ossput': 0.0.4
   '@iuser/read': 0.0.5
   '@iuser/snake': 0.0.15
   '@iuser/u8': 0.0.3
   '@iuser/verincr': 0.0.4
-  '@iuser/write': 0.0.6
+  '@iuser/write': 0.0.7
   '@rmw/pool': 0.0.21
   '@rmw/thisdir': 0.0.2
-  coffee_plus: 0.0.38
-  isomorphic-git: 1.19.2
+  coffee_plus: 0.0.39
+  isomorphic-git: 1.21.0
   zx: 7.0.8
 
 packages:
@@ -34,14 +34,14 @@ packages:
     resolution: {integrity: sha512-jtO5S9eY8FXvrwXwA5LCd4VV5sCH16MLkatZQFvdov7MYY6ylk3EbgWcxwXajRFO/m77JLTOU1nHwtpzoxrGjg==}
     dev: false
 
-  /@iuser/node-loader/0.0.20:
-    resolution: {integrity: sha512-VLtzX1ftQ/vkyJ4HnEa2Pl5OD33aq3lwf38mef8ycViKTbS23zjuaXwYIsICeDh1t7qfgoQ9KVTrgj2MO2TufA==}
+  /@iuser/node-loader/0.0.21:
+    resolution: {integrity: sha512-SgZfVLX+ZVvoj1KctWw9qNeiV/kPeG9OjsHCVSlPrdfCEZEuy4wFF8MqlurQrUL2rZRBvLkdpHOZlWsAK3otAA==}
     dependencies:
-      coffee_plus: 0.0.32
+      coffee_plus: 0.0.39
     dev: false
 
-  /@iuser/ossput/0.0.1:
-    resolution: {integrity: sha512-X3zrW+abFBiqLsZqKHnPUPlKERlpBKXTA+zHRg1b/ZKUd1+tH7AbvZKVeRCXpctzNBTWYcpkEAIO2aH2uEKITQ==}
+  /@iuser/ossput/0.0.4:
+    resolution: {integrity: sha512-SafpcDD4SC6EQkKbJx6cA8yQlJ+yGp5PJa7WAzZBRVYSqV/+RHFqZBMA06XPsUqHtAFrt1OAVdFwwxhNI/ZDUw==}
     dependencies:
       aws-sdk: 2.1205.0
     dev: false
@@ -68,6 +68,10 @@ packages:
 
   /@iuser/write/0.0.6:
     resolution: {integrity: sha512-SEZsFszkcawmv2ZX8vKlYIjH5XkxKeYWzGX0rvfBpyn8vPDlb2eFmGdKtr0wZP7x4KgOYzOeSmMWUgDV1TWidA==}
+    dev: false
+
+  /@iuser/write/0.0.7:
+    resolution: {integrity: sha512-OvkcTyygSHAxy27453FpnUXV3x/4Ey+mkl1vNEn5E4n37hhKcn3Cwr8jLqZYcF/oUU/aE+hQc3jPQ4UcgzQH1w==}
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -201,19 +205,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: false
 
-  /coffee_plus/0.0.32:
-    resolution: {integrity: sha512-JFJT71mwTnmOwJwHiJt/L+wVVtdnHzFllh/Vm/uZjTKtt0vciGjN4ZK9t4VEMDeuD4IgqBfKff6PLdXwvWC3OA==}
-    hasBin: true
-    dependencies:
-      '@iuser/camel': 0.0.17
-      '@iuser/walk': 0.0.2
-      coffeescript: 2.7.0
-      lodash-es: 4.17.21
-      yargs: 17.5.1
-    dev: false
-
-  /coffee_plus/0.0.38:
-    resolution: {integrity: sha512-iNN5Gn4pmPqkrzMgu1vXCO5gnXcKUYPhyHqxyPHryouk3yKhQMQRvbtteNmmpDB8MeTyorzkvVZHeFWZWJKLFA==}
+  /coffee_plus/0.0.39:
+    resolution: {integrity: sha512-OwBO9JN1tNjFymAinyl6BfcpaOQCi4HglsIAuJxwbNR0GfAAhaoc7we9qlvxqYK2laSqfGB9XPooY9ni8MtL5Q==}
     hasBin: true
     dependencies:
       '@iuser/camel': 0.0.17
@@ -644,8 +637,8 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: false
 
-  /isomorphic-git/1.19.2:
-    resolution: {integrity: sha512-14Tbf3GRFNoXw+fy6ssK7gpDZQxF+NytHmg7p+5L38IAVUafHnfjzJ0ZnEmLz3SAG20wYYyB+HufkRAFRttYxQ==}
+  /isomorphic-git/1.21.0:
+    resolution: {integrity: sha512-ZqCAUM63CYepA3fB8H7NVyPSiOkgzIbQ7T+QPrm9xtYgQypN9JUJ5uLMjB5iTfomdJf3mdm6aSxjZwnT6ubvEA==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:

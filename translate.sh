@@ -12,6 +12,7 @@ i18n en
 cp zh.it zh.it.bak
 git checkout zh.it
 opencc -i zh.it -c s2t -o zh-TW.it
+sd -s ' ."' '"' $(fd -e json)
 sd " \.$" "" $(fd -e it)
 cd $DIR
 }
