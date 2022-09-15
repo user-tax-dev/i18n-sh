@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iuser/i18n': ^0.0.22
+  '@iuser/i18n': ^0.0.23
   '@iuser/node-loader': ^0.0.21
   '@iuser/ossput': ^0.0.4
   '@iuser/read': ^0.0.5
@@ -16,7 +16,7 @@ specifiers:
   zx: ^7.0.8
 
 dependencies:
-  '@iuser/i18n': 0.0.22
+  '@iuser/i18n': 0.0.23
   '@iuser/node-loader': 0.0.21
   '@iuser/ossput': 0.0.4
   '@iuser/read': 0.0.5
@@ -43,8 +43,8 @@ packages:
       got: 9.6.0
     dev: false
 
-  /@iuser/i18n/0.0.22:
-    resolution: {integrity: sha512-mHEuoOlauclcEV/11CU9lhVOXZWfPoijos8NqTpNE6eDzRQPHXaZDi4k7zK5g/hQKjnRV4LQeY+reVr3OYjg3w==}
+  /@iuser/i18n/0.0.23:
+    resolution: {integrity: sha512-QZfFhYbDVG8zluPb2mw5crJgDa0NE2XIbYjl2uXxOfUP4DQtSyu6O9Vl3IPJO0bte5RA/kZaObY+EhI9HLZfgA==}
     hasBin: true
     dependencies:
       '@iuser/google-translate-api': 0.0.2
@@ -840,7 +840,7 @@ packages:
     dev: false
 
   /json-buffer/3.0.0:
-    resolution: {integrity: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=}
+    resolution: {integrity: sha512-CuUqjv0FUZIdXkHPI8MezCnFCdaTAacej1TZYulLoAg1h/PhwkdXFN4V/gzY4g+fMBCOV2xF+rp7t2XD2ns/NQ==}
     dev: false
 
   /jsonfile/6.1.0:
