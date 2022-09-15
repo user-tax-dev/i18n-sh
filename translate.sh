@@ -8,7 +8,7 @@ direnv allow
 set -ex
 transalte(){
 cd $DIR/$1
-i18n en
+bun run i18n -- en
 cp zh.it zh.it.bak
 git checkout zh.it
 opencc -i zh.it -c s2t -o zh-TW.it
