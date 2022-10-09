@@ -18,4 +18,12 @@ cd $DIR
 }
 
 transalte ..
+
+cd $DIR/..
+for lang in zh ja km lo th; do
+sd -s '？' '?' $lang.it
+sd -s ' ?' '?' $lang.it
+done
+
+cd $DIR
 direnv exec . ./i18n2id.coffee
