@@ -23,6 +23,7 @@ cd $DIR/..
 for lang in zh ja km lo th; do
 sd -s '？' '?' $lang.it
 sd -s ' ?' '?' $lang.it
+sd -s '?  ' '? ' $lang.it
 done
 
 cd $DIR
