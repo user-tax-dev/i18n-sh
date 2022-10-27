@@ -56,7 +56,12 @@ do =>
       li = Object.entries data
       li.sort (a,b)=>key_id.get(a[0]) - key_id.get(b[0])
       li_len = li.length-1
-      assert li_len == id
+
+      try
+        assert li_len == id
+      catch err
+        console.error {li_len, id}, fp
+        throw err
 
       len = 0
       li = li.map (i)=>
