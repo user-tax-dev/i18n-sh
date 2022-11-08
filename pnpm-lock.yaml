@@ -14,6 +14,8 @@ specifiers:
   '@u6x/jsext': ^0.0.26
   coffee_plus: ^0.0.43
   isomorphic-git: ^1.21.0
+  utax: ^0.0.26
+  y18n: ^5.0.8
   zx: ^7.1.1
 
 dependencies:
@@ -30,6 +32,8 @@ dependencies:
   '@u6x/jsext': 0.0.26
   coffee_plus: 0.0.43
   isomorphic-git: 1.21.0
+  utax: 0.0.26
+  y18n: 5.0.8
   zx: 7.1.1
 
 packages:
@@ -1015,6 +1019,10 @@ packages:
 
   /utax/0.0.20:
     resolution: {integrity: sha512-UE9lFOnwmik0Oo0ptuESeZ8F3tk9hTzJHLkffhpMlWCBbQtX1GvHRsnqC3oN07pN1jMMeE/MifM2R8n2sKLeJQ==}
+    dev: false
+
+  /utax/0.0.26:
+    resolution: {integrity: sha512-DpU/J9ZTAK5pTAEYao2i02tlGna48NtCZfMLQRuYHFy20p2CRI1tstxj1Aauht54taXn38NiVptSjc9rv4/o8A==}
     dev: false
 
   /util-deprecate/1.0.2:
