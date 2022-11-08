@@ -7,7 +7,7 @@ direnv allow
 
 set -ex
 transalte() {
-  npx i18n -d $DIR/$1 en
+  ./node_modules/@iuser/i18n/lib/i18n.js -d $DIR/$1 en
   cd $DIR/$1
   #cp zh.it zh.it.bak
   #git checkout zh.it
