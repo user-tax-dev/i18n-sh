@@ -28,3 +28,4 @@ done
 
 cd $DIR
 direnv exec . ./i18n2id.coffee
+cp ../gen/i18n.js ../../api/src/ERR.js
